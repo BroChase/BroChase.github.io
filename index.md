@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Chase Brown, Parallel and Distributed
 
 You can use the [editor on GitHub](https://github.com/BroChase/BroChase.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
