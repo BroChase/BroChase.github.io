@@ -35,4 +35,22 @@ Bibliography
 
 1. M. Harris. Parallel Prefix Sum (Scan) with CUDA. (2009). [Online]. Available: [http://developer.download.nvidia.com/compute/cuda/2\_2/sdk/website/projects/scan/doc/scan.pdf](http://developer.download.nvidia.com/compute/cuda/2_2/sdk/website/projects/scan/doc/scan.pdf)
 
+
+Chase Brown
+
+Assignment 2
+
+Application areas for the prefix problems.
+
+Research 2 1.5 Segmented scans
+
+From the first research I did on parallel prefix sum I followed a reference to Guy Blelloch on prefix sums and their applications. The section Segmented scans covers how a vector operated on by a scan can be broken into segments with flags. The scan essentially uses two vectors: a data vector, and a flag vector.
+
+Quicksort is such an operation that can be performed using segmented scans. The algorithm selects keys much like quicksort that are less than equal or grater than the pivot that is selected. The segments are distributed, and another pivot is selected and distributed to the other elements. Within the segments the elements are compared, and the pivot is selected based on the result of the comparison. This algorithm using randomly selected pivots on each segment is expected to complete in O(lgn) iterations. This is just one example of a divide-and-conquer algorithm.
+
+Bibliography
+
+1. G. Blelloch. Prefix Sums and Their Applications. [Online].Available: [https://www.cs.cmu.edu/afs/cs/academic/class/15750-s11/www/handouts/PrefixSumBlelloch.pdf](https://www.cs.cmu.edu/afs/cs/academic/class/15750-s11/www/handouts/PrefixSumBlelloch.pdf)
+
+
 [Main](./)
