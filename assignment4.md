@@ -7,7 +7,7 @@ Chase Brown
 
 The CM-5 Connection Machine. This is a scalable homogeneous multiprocessor design capable or different sized randing from 32 processors to 1024. It also does not use a bus like in a conventional computer and allows for its bandwidths to increase in proportion to the number of processors. Scaling up to 16384 processors the architecutre allows for a modular component design. The data network design of the CM-5 incorporates both point-to-point communication of data and broadcast and synchronization.
 
-The CM-5 supports multiple languages. They include Fortran 77, High-performance Fortran 90, C*, Lisp, and Id. The idea between supporting multiple languages is the idea that no one model of parallel programming will solve all users needs.
+The CM-5 ran on an operating system called CMost, it was a Sun-based UNIX OS designed for multiple users to be able to use. The system supports multiple languages. They include Fortran 77, High-performance Fortran 90, C*, Lisp, and Id. The idea between supporting multiple languages is the idea that no one model of parallel programming will solve all users needs.
 
 Key features that we had discussed about this super computer are relating to the CM* machines. The architectures that we have talked about from the lectures and reading material relate to hypercube architectures such as that in the CM-2. The CM-5 architecture changed it architecture to a fat tree node design that allows for easier programming much like a SIMD device.
 
