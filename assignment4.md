@@ -5,6 +5,7 @@ layout: default
 ## Welcome to Assignment 4
 Chase Brown
 
+1. The CM-5 Connection Machine. MIMD-Shared Memory using fat tree.
 The CM-5 Connection Machine. This is a scalable homogeneous multiprocessor design capable or different sized randing from 32 processors to 1024. It also does not use a bus like in a conventional computer and allows for its bandwidths to increase in proportion to the number of processors. Scaling up to 16384 processors the architecutre allows for a modular component design. The data network design of the CM-5 incorporates both point-to-point communication of data and broadcast and synchronization.
 
 The CM-5 ran on an operating system called CMost, it was a Sun-based UNIX OS designed for multiple users to be able to use. The system supports multiple languages. They include Fortran 77, High-performance Fortran 90, C*, Lisp, and Id. The idea between supporting multiple languages is the idea that no one model of parallel programming will solve all users needs.
@@ -17,3 +18,16 @@ The macine was designed for applications involved in high-energy physics, global
 
 ### Bibliography
 W. Daniel Hillis, Lewis W. Tucker. The CM-5 Connection Machine: A Scalable Supercomputer. (1993). [Online]. Available:https://www.archive.ece.cmu.edu/~ece740/f13/lib/exe/fetch.php?media=hillis_cm5.pdf
+
+
+2. The C.mmp computer with MIMD and shared memory using crossbar switch.
+The C.mmp computer was designed as an early MIMD that used shared memory via a crossbar switch that would connect the Compute modules in the system.
+While many of the architectures that we have discussed in class including mesh and hyper. The architecture of the C.mmp used a 16x16 crossbar switch, a very old method used to connect the processors or Computer modules together to form the shared memory MIMD.
+
+This machine was developed in 1971 and is no longer in use… Being one of the original MIMD designs it used PDP-11 minicomputers as processing elements.
+* what type of applications does it support
+
+The operating system that it used was called HYDRA. It was an object oriented multi-user operating system. It was capable of using a subset of the language called ALGOL 68. The OS and most applications that ran on the system were written in Bliss-11.
+
+### Bibliography
+Bell "et al.". The CMU Multiminiprocessor Computer (1971). [Online]. Available:http://link.cs.cmu.edu/files/1971-08-24-CMMP.pdf
