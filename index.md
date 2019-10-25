@@ -23,3 +23,27 @@ needed at the time of review if the material you are referencing is not redily
 available.
 ```
 
+[Team Assignment 3](./assignment3.html)
+
+```
+Summarize (in no more than two double saced typed pages) your understanding, 
+impressions, interpretation of the discussions we have been in the last several 
+classes on the subject of shared-memory MIMD ocmputers. Pay specific attention to the
+questions raised in the introduction section of chapter 4.
+```
+
+[Team Assignment 4](./assignment4.html)
+
+```
+Research and find two shared memory multiprocessor architectures. For each provide:
+* at least one reference (plus URL link)
+* briefly describe the overall system architecture
+* programming languages it supports
+* compare and contrast the key features of the machine with what we have covered in class
+* date the machine was built
+* is it still in use
+* what type of applications does it support
+* operating systems (if information available)
+* what type of interconnection network does it have
+
+```
