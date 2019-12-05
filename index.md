@@ -1,5 +1,12 @@
 ## Chase Brown, Parallel and Distributed
 
+
+[Final Project](./finalproject.html)
+```
+Final Project:
+Sequential and Parallel(CUDA) implementation of a Convolutional Neural netowrk.
+```
+
 [Team Assignment 1](./assignment1.html)
 
 ```
