@@ -17,6 +17,7 @@ Data files : [https://drive.google.com/drive/folders/1Yt0P7SjDS95Juyit9bhNYeOKVE
 
 The file structure on Heracles should look like below
 
+![Term](./paradis.png)
 
 In both the cuda_CNN and seq_CNN folders simply run make in the terminal.
 
